@@ -1,0 +1,12 @@
+
+language: java
+sudo: true
+os:
+    - linux
+script:
+  - ./justCompile.sh
+  #- ./init.sh test/test.java
+  #- ./init.sh test/test01.java
+  #- ./init.sh test/test02.java
+  #- ./init.sh test/test03.java
+  #- ./init.sh test/test04.java
